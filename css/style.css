@@ -1,0 +1,84 @@
+body{
+    background-color: white;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 100;
+    line-height: 1.6em;
+    margin: 0;
+}
+/* Global*/
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: red;
+}
+.container{
+    width: 500px;
+    margin: auto;
+}
+.box_1{
+    background: #a52a2a;
+    color: #fff;
+    border-width: 3px;
+    border-bottom-width: 15px;
+    border: 5px #333;
+    padding: 10px;
+    margin: 5px;
+}
+.box_1 h1{
+    font-family: tahoma;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: white;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+}
+.box_2{
+    margin: 5px;
+    border: 5px brown dotted;
+    padding: 10px;
+}
+.Categories{
+    border: 2px brown solid;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.Categories h2{
+    text-align: center;
+}
+.Categories ul{
+    padding: 0;
+    list-style: none;
+}
+.Categories li{
+    padding-bottom: 5px;
+    border-bottom: #333 1px solid;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 5px;
+    width: 100%;
+}
+.my-form input[type="submit"]{
+    background: #a52a2a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
